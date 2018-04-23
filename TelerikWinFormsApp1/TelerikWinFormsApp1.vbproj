@@ -61,6 +61,7 @@
       <HintPath>..\lib\RCWF\2017.3.1017.40.Trial\Telerik.WinControls.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Telerik.WinControls.ChartView, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.UI, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
       <HintPath>..\lib\RCWF\2017.3.1017.40.Trial\Telerik.WinControls.UI.dll</HintPath>
       <Private>True</Private>
@@ -90,6 +91,7 @@
       <DependentUpon>RadForm1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="RadForm1.resx">
       <DependentUpon>RadForm1.vb</DependentUpon>
     </EmbeddedResource>
